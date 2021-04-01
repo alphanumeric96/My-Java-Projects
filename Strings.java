@@ -26,7 +26,6 @@ public class Strings {
         int y = 20 + x;
         System.out.println(y);
 
-        System.out.println(Math.floor(Math.random()*1000000L + 1));
 
     }
 }
