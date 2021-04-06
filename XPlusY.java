@@ -8,5 +8,10 @@ public class XPlusY {
         int x = 95;
         int y = 5;
         System.out.println(x + y);// Output : 100
+        System.out.println(sum(5,8));
+    }
+
+    public static int sum(int x, int y){
+        return x * y + x * y - 2;
     }
 }
